@@ -15,6 +15,7 @@ namespace WindowsFormsApplication1.View.Terminverwaltung
     public partial class Speichern : Form
     {
         PersonController personController = PersonController.theInstance;
+        TerminController terminController = TerminController.theInstance;
         List<PersonModel> personen = new List<PersonModel>();
 
         public Speichern()
@@ -26,7 +27,7 @@ namespace WindowsFormsApplication1.View.Terminverwaltung
             {
                 personenString.Add(personController.convertObjectToString(person));
             }
-            this.personCombo.DataSource = personenString;
+            this.personSelect.DataSource = personenString;
         }
 
     private void abbrechenBtn_Click(object sender, EventArgs e)
@@ -36,7 +37,49 @@ namespace WindowsFormsApplication1.View.Terminverwaltung
 
         private void speichernBtn_Click(object sender, EventArgs e)
         {
-            
+            string isError = "Fehler:";
+            string location = locationInput.Text;
+            string description = descriptionInput.Text;
+
+            if (location.Length <= 0 || location.Length > 255)
+            {
+                if (isError.Length > 7)
+                {
+                    isError = String.Concat(isError, ", Treffpunkt ist ungültig");
+                }
+                else
+                {
+                    isError = String.Concat(isError, " Treffpunkt ist ungültig");
+                }
+            }
+
+            if (description.Length <= 0 || description.Length > 255)
+            {
+                if (isError.Length > 7)
+                {
+                    isError = isError + ", Beschreibung ist ungültig";
+                }
+                else
+                {
+                    isError = isError + " Beschreibung ist ungültig";
+                }
+            }
+
+            if (isError.Length < 8)
+            {
+                Bericht berichtView = new Bericht();
+
+                PersonModel person = personSelect;
+
+                DateTime date = this.dateTimePicker.Value.Date;
+
+                terminController.einfuegen(person, date, locationInput.Text, descriptionInput.Text);
+                this.Dispose();
+            }
+            else
+            {
+                MessageBox.Show(isError, "Invalide eingabe", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

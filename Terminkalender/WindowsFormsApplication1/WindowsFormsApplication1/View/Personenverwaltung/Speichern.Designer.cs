@@ -99,7 +99,9 @@
             // 
             // vornameInput
             // 
+            this.vornameInput.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.vornameInput.Location = new System.Drawing.Point(97, 34);
+            this.vornameInput.MaxLength = 50;
             this.vornameInput.Name = "vornameInput";
             this.vornameInput.Size = new System.Drawing.Size(100, 20);
             this.vornameInput.TabIndex = 6;

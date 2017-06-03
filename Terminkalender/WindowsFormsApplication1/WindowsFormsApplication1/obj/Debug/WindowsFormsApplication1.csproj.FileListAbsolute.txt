@@ -31,3 +31,16 @@ C:\Users\pfeiffer.jonas\Documents\Terminkalender\WindowsFormsApplication1\Window
 C:\Users\pfeiffer.jonas\Documents\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.View.Personenverwaltung.Bericht.resources
 H:\AW Praxis\Lehrjahr 2\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.View.Terminverwaltung.Bericht.resources
 H:\AW Praxis\Lehrjahr 2\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.View.Terminverwaltung.Speichern.resources
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.View.Personenverwaltung.Bericht.resources
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.View.Speichern.resources
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Startseite.resources
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.View.Terminverwaltung.Bericht.resources
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.View.Terminverwaltung.Speichern.resources
+C:\Users\Dustin\Source\Repos\AWPraxis\Terminkalender\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache

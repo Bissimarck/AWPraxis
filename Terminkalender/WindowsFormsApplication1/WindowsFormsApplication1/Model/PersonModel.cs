@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace WindowsFormsApplication1.Model
 {
@@ -26,5 +27,10 @@ namespace WindowsFormsApplication1.Model
         public string wohnort;
         public string adresse;
         public string plz;
+
+        public static implicit operator PersonModel(ComboBox v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

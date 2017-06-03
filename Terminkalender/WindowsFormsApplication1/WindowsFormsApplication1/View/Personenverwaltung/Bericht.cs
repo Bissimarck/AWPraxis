@@ -55,9 +55,18 @@ namespace WindowsFormsApplication1.View.Personenverwaltung
             setzeDaten(personController.sortiere("wohnort"));
         }
 
-        private void loeschenBtn_Click(object sender, EventArgs e)
+        private void loeschenBtn(object sender, EventArgs e)
         {
+            ListBox.SelectedObjectCollection selectedItems = new ListBox.SelectedObjectCollection(listBox1);
+            selectedItems = listBox1.SelectedItems;
 
+            if (listBox1.SelectedIndex != -1)
+            {
+                for (int i = selectedItems.Count - 1; i >= 0; i--)
+                    listBox1.Items.Remove(selectedItems[i]);
+            }
+            else
+                MessageBox.Show("Debe seleccionar un email");
         }
 
         private void speichereBtn_Click(object sender, EventArgs e)

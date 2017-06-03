@@ -31,16 +31,16 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.personCombo = new System.Windows.Forms.ComboBox();
+            this.personSelect = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.abbrechenBtn = new System.Windows.Forms.Button();
             this.speichernBtn = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.locationInput = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.descriptionInput = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -61,12 +61,12 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Datum:";
             // 
-            // dateTimePicker1
+            // dateTimePicker
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(114, 38);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 2;
+            this.dateTimePicker.Location = new System.Drawing.Point(114, 38);
+            this.dateTimePicker.Name = "dateTimePicker";
+            this.dateTimePicker.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker.TabIndex = 2;
             // 
             // label3
             // 
@@ -86,13 +86,13 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Beschreibung:";
             // 
-            // personCombo
+            // personSelect
             // 
-            this.personCombo.FormattingEnabled = true;
-            this.personCombo.Location = new System.Drawing.Point(114, 129);
-            this.personCombo.Name = "personCombo";
-            this.personCombo.Size = new System.Drawing.Size(200, 21);
-            this.personCombo.TabIndex = 5;
+            this.personSelect.FormattingEnabled = true;
+            this.personSelect.Location = new System.Drawing.Point(114, 129);
+            this.personSelect.Name = "personSelect";
+            this.personSelect.Size = new System.Drawing.Size(200, 21);
+            this.personSelect.TabIndex = 5;
             // 
             // label5
             // 
@@ -123,39 +123,39 @@
             this.speichernBtn.UseVisualStyleBackColor = true;
             this.speichernBtn.Click += new System.EventHandler(this.speichernBtn_Click);
             // 
-            // textBox1
+            // locationInput
             // 
-            this.textBox1.Location = new System.Drawing.Point(114, 69);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
-            this.textBox1.TabIndex = 9;
+            this.locationInput.Location = new System.Drawing.Point(114, 69);
+            this.locationInput.Name = "locationInput";
+            this.locationInput.Size = new System.Drawing.Size(200, 20);
+            this.locationInput.TabIndex = 9;
             // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // textBox2
+            // descriptionInput
             // 
-            this.textBox2.Location = new System.Drawing.Point(114, 100);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 20);
-            this.textBox2.TabIndex = 11;
+            this.descriptionInput.Location = new System.Drawing.Point(114, 100);
+            this.descriptionInput.Name = "descriptionInput";
+            this.descriptionInput.Size = new System.Drawing.Size(200, 20);
+            this.descriptionInput.TabIndex = 11;
             // 
             // Speichern
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(326, 222);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.descriptionInput);
+            this.Controls.Add(this.locationInput);
             this.Controls.Add(this.speichernBtn);
             this.Controls.Add(this.abbrechenBtn);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.personCombo);
+            this.Controls.Add(this.personSelect);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dateTimePicker);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Speichern";
@@ -168,16 +168,16 @@
         #endregion
 
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox personCombo;
+        private System.Windows.Forms.ComboBox personSelect;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button abbrechenBtn;
         private System.Windows.Forms.Button speichernBtn;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox descriptionInput;
+        private System.Windows.Forms.TextBox locationInput;
     }
 }
